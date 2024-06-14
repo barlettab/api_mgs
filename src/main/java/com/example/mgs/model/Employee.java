@@ -8,11 +8,11 @@ public class Employee {
     private String nome;
     private List<String> alergia;
     private List<String> probMed;
-    private String telefone;
-    private String email;
+    private List<String> telefone;
+    private List<String> email;
 
     // constructor
-    public Employee(String id, String nome, List<String> alergia, List<String> probMed, String telefone, String email) {
+    public Employee(String id, String nome, List<String> alergia, List<String> probMed, List<String> telefone, List<String> email) {
         super();
         this.id = id;
         this.nome = nome;
@@ -55,19 +55,19 @@ public class Employee {
         this.probMed = probMed;
     }
 
-    public String getTelefone() {
+    public List<String> getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(String telefone) {
+    public void setTelefone(List<String> telefone) {
         this.telefone = telefone;
     }
 
-    public String getEmail() {
+    public List<String> getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
+    public void setEmail(List<String> email) {
         this.email = email;
     }
 
