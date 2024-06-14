@@ -60,8 +60,8 @@ ou faça o download do código-fonte como arquivo ZIP e extraia-o
          "nome": "José da Silva",
          "alergia": ["Amendoim", "Carne de Porco"],
          "probMed": ["Asma"],
-         "telefone": ["123456789"]
-         "email": ["josesilvin@example.com"]
+         "telefones": ["123456789", "987654321"],
+         "emails": ["josesilvin@example.com", "jsilva@workmail.com"]
      }
      ```
 
