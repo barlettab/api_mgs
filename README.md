@@ -64,6 +64,7 @@ ou faça o download do código-fonte como arquivo ZIP e extraia-o
          "email": ["josesilvin@example.com", "jsilva@workmail.com"]
      }
      ```
+     **Note**: o funcionário pode ter uma ou mais `alergia`e um ou mais `probMed`, como também pode não ter. Contudo, o atributo `telefone` e `email` é obrigatório, ou seja, o funcionário deve ter no mínimo um telefone e um email para ser cadastrado. 
 
 5. **Enviar a Requisição:**
    - Clique em "Send" e verifique a resposta.
