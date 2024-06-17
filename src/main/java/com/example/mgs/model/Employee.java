@@ -1,19 +1,30 @@
 package com.example.mgs.model;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotEmpty;
 import java.util.List;
 
 public class Employee {
     // attributes
+    @NotBlank(message = "O ID do funcionário é obrigatório.")
     private String id;
+
+    @NotBlank(message = "O nome do funcionário é obrigatório.")
     private String nome;
+
     private List<String> alergia;
     private List<String> probMed;
+
+    @NotEmpty(message = "Pelo menos um número de telefone é obrigatório.")
     private List<String> telefone;
+
+    @NotEmpty(message = "Pelo menos um e-mail é obrigatório.")
+    @Email(message = "E-mail deve ser válido.")
     private List<String> email;
 
     // constructor
     public Employee(String id, String nome, List<String> alergia, List<String> probMed, List<String> telefone, List<String> email) {
-        super();
         this.id = id;
         this.nome = nome;
         this.alergia = alergia;
@@ -71,13 +82,4 @@ public class Employee {
         this.email = email;
     }
 
-    /*
-    // toString para impressão de informações do funcionário
-    @Override
-    public String toString() {
-        return "Employee [id=" + id + ", nome=" + nome + ", alergia=" + alergia + ", probMed=" + probMed + ", telefone="
-                + telefone + ", email=" + email + "]";
-    }
-    */
 }
-	
