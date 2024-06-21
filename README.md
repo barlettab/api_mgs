@@ -30,10 +30,10 @@ Implementar uma API REST que permita o gerenciamento das informações dos empre
 
 1. Clone este repositório através do comando: 
 `git clone https://github.com/barlettab/api_mgs.git`
-ou faça o download do código-fonte como arquivo ZIP e extraia-o
-2. Importe o projeto para sua IDE Java preferida (Eclipse, NetBeans, IntelliJ, etc)
-3. Execute o projeto a partir da classe principal MgsApplication.java
-4. Abra o Postman
+ou faça o download do código-fonte como arquivo ZIP e extraia-o;
+2. Importe o projeto para sua IDE Java preferida (Eclipse, SpringBoot, NetBeans, IntelliJ, etc);
+3. Execute o projeto a partir da classe principal MgsApplication.java;
+4. Abra o Postman;
 
 ### Adicionar um novo funcionário (POST)
 
@@ -44,12 +44,7 @@ ou faça o download do código-fonte como arquivo ZIP e extraia-o
    - **Método:** Selecione `POST`.
    - **URL:** Digite `http://localhost:8080/employees`.
 
-3. **Adicionar Cabeçalhos:**
-   - Clique na aba "Headers" e adicione um novo cabeçalho:
-     - **Key:** `Content-Type`
-     - **Value:** `application/json`
-
-4. **Adicionar o Corpo da Requisição:**
+3. **Adicionar o Corpo da Requisição:**
    - Clique na aba "Body".
    - Selecione "raw".
    - Selecione "JSON" no menu dropdown à direita.
@@ -66,7 +61,7 @@ ou faça o download do código-fonte como arquivo ZIP e extraia-o
      ```
      **Note**: o funcionário pode ter uma ou mais `alergia`e um ou mais `probMed`, como também pode não ter. Contudo, o atributo `telefone` e `email` é obrigatório, ou seja, o funcionário deve ter no mínimo um telefone e um email para ser cadastrado. 
 
-5. **Enviar a Requisição:**
+4. **Enviar a Requisição:**
    - Clique em "Send" e verifique a resposta.
 
 ### Obtendo Informações de um Funcionário (GET)
