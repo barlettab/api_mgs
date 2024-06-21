@@ -19,9 +19,9 @@ Implementar uma API REST que permita o gerenciamento das informações dos empre
 
 ### Pré-requisitos
 
-- JDK 21 (Java Development Kit) instalado
-- Maven instalado
-- Postman
+- JDK 21 (Java Development Kit) instalado;
+- Maven instalado;
+- Postman;
 
 ### IDE utilizada para o projeto
 - SpringBoot;
